@@ -3,16 +3,29 @@
     font-family: 'Montserrat', sans-serif;
 
 }
-
+/* NAVBAR */
 .bg-primary-color
 {
     background: #0B1F3B;
 }
+/* Centralizando itens */
 
-#navbar-items .navbar-nav
+#navbar_it .navbar-nav
 {
     display: flex;
     justify-content: center;
-    width: 85%;
-    
+    width: 100%; 
+    margin-top: 7em;
+
+}
+
+.item_nav .itemDaNav
+{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.item_nav a:hover
+{
+    text-decoration:underline red;
 }

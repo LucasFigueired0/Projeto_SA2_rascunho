@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <!--  -->
+    <title>Bootstrap-aula</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-color">
+        <div class="container navbar-pincipal">
+            <a href="#" class="navbar-brand brand-img logo"><img src="img/logo.png" alt="logo" width="171"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- para agrupar e esconder conteúdos navbar, de acordo com o breakpoint do pai. -->
+            <div class="collapse navbar-collapse lista" id="navbar-items" id="conteudoNavbarSuportado">
+                <!-- Navbar -->
+                <ul class="navbar-nav me-auto">
+                    <!-- Item 1 -->
+                    <li class="nav-item-dropdown item_1 item_nav">
+                        <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            NOTEBOOKS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">Acer</a>
+                            <a href="#" class="dropdown-item">Dell</a>
+                            <a href="#" class="dropdown-item">Sansumg</a>
+                            <a href="#" class="dropdown-item">Lenovo</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Todos</a>
+                        </div>
+                    </li>
+                    <!-- Item 2 -->
+                    <li class="nav-item-dropdown item_2 item_nav">
+                        <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DESKTOP
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">PC básico</a>
+                            <a href="#" class="dropdown-item">PC gamer</a>
+                            <a href="#" class="dropdown-item">Servidor</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Todos</a>
+                        </div>
+                    </li>
+                    <!-- Item 3 -->
+                    <li class="nav-item-dropdown item_nav">
+                        <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONSOLES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">Xbox</a>
+                            <a href="#" class="dropdown-item">Playstation</a>
+                            <a href="#" class="dropdown-item">Nitendo</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Todos</a>
+                        </div>
+                    </li>
+                    <!-- Item 4 -->
+                    <li class="nav-item-dropdown item_nav">
+                        <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ACESSÓRIOS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">Fone de ouvido headset</a>
+                            <a href="#" class="dropdown-item">Teclados</a>
+                            <a href="#" class="dropdown-item">Mouse</a>
+                            <a href="#" class="dropdown-item">Mousepad</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Todos</a>
+                        </div>
+                    </li>
+                    <!-- Item 5 -->
+                    <li class="nav-item-dropdown item_nav">
+                        <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SMARTPHONES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item ii">Samsung</a>
+                            <a href="#" class="dropdown-item">Motorola</a>
+                            <a href="#" class="dropdown-item">Iphone</a>
+                            <a href="#" class="dropdown-item iu">Mousepad</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Todos</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<!--  -->
+<script src="js/main.js"></script>
+</html>

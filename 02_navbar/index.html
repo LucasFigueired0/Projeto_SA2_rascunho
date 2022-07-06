@@ -11,21 +11,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icone.ico">
     <!--  -->
     <title>Bootstrap-aula</title>
 </head>
 <body>
+    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-color">
         <div class="container navbar-pincipal">
-            <a href="#" class="navbar-brand brand-img logo"><img src="img/logo.png" alt="logo" width="171"></a>
+            <a href="#" class="navbar-brand brand-img logo1"><img src="img/logo.png" alt="logo" width="150"></a>
+            
+            <!-- Botão pesquisa -->
+            <div class="navbar pesq">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2 caixa-pesquisa" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  <button class="btn btn-outline-danger botao" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></div></button>
+                </form>
+            </div>              
+            <!-- ---------------- -->
+            <!-- icones laterais -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- para agrupar e esconder conteúdos navbar, de acordo com o breakpoint do pai. -->
-            <div class="collapse navbar-collapse lista" id="conteudoNavbarSuportado" id="nav_it">
+            <div class="collapse navbar-collapse lista nav-itens" id="conteudoNavbarSuportado">
                 <!-- Navbar -->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav me-auto">
                     <!-- Item 1 -->
                     <li class="nav-item-dropdown item_1 item_nav">
                         <a href="#" class="nav-link dropdown toggle itemDaNav" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -99,7 +113,6 @@
         </div>
     </nav>
     <!--  -->
-    
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

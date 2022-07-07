@@ -1,7 +1,6 @@
 *
 {
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .bg-primary-color
@@ -11,17 +10,20 @@
 
 .logo1
 {
-    position:static;
-    margin-top: -3%;
-    margin-left: 40%;
+    
+   position: static;
+   margin-left: 6rem;
+   padding-top: 0.01rem;
 }
+
+
 
 .nav-itens .navbar-nav
 {
-    margin-top: 8em;
-    display: flex;
-    justify-content: center;
-    /* width: 30%;  */
+    position: static;
+    margin-top: 6rem;
+    width: 40%;
+    margin-right: 24rem;
 }
 
 /* Pesquisa------------------------------------------------------------------------------- */
@@ -30,7 +32,8 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 80%;
+    margin-left: 1%;
+    width: 75%;
 }
 
 .pesq .caixa-pesquisa
@@ -51,38 +54,9 @@
    color: #fff;
 }
 
-
-
-@media(max-width: 768px)
-{
-    .pesq
-    {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    }
-
-    .pesq .caixa-pesquisa
-    {
-        box-sizing: border-box;
-        width: 150%;
-        max-width: 150%;
-    }
-    .botao
-    {
-        position:static;
-        margin-left: 150%;
-        margin-top: -27%;
-    }
-}
-/* --------------------------------------------------------------------------------------- */
-
-
 .item_nav .itemDaNav
 {
     font-weight: bold;
-    margin-right: 4em;
 }
 
 .itemDaNav:hover
@@ -103,5 +77,179 @@
 .dropdown-menu .dropdown-divider
 {
     background: #fff;
+}
+
+.login_favoritos
+{
+    margin-top: -1.8rem;
+}
+
+
+.login
+{
+    width: 2rem;
+    margin: 0.5rem;
+    border-radius: 10%;
+}
+
+.login:hover
+{
+    background-color: red;
+}
+
+/* ----------------------------------------------------------------------- */
+/*1500px */
+
+@media(max-width: 1500px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-right: 21rem;
+    }
+    
+}
+
+@media(max-width: 1550px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-right: 22.5rem;
+    }
+}
+/*  */
+@media (max-width: 1450px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-right: 19rem;
+    }
+}
+
+@media (max-width: 1400px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-right: 16.5rem;
+    }
+}
+ 
+@media(max-width: 1350px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-right: 15rem;
+    }
+}
+@media(max-width: 1300px)
+{
+    .pesq
+    {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-left: 1%;
+        width: 70%;
+    }
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-left: 2rem;
+    }
+
+    .login_favoritos
+    {
+        float: right;
+        margin-left: 5rem;
+    }
+
+}
+ 
+@media(max-width: 1250px)
+{
+    .navbar-pincipal
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-left: -2rem;
+    }
+    .navbar-pincipal
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1150px)
+{
+    .navbar-pincipal
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1100px)
+{
+    .login_favoritos
+    {
+        float: right;
+        margin-left: 1rem;
+    }
+    
+    .navbar-pincipal
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .logo1
+    {
+        position: static;
+        margin-left: 3rem;
+        padding-top: 0.01rem;
+    }
+    nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: rem;
+        width: 40%;
+        margin-right: 25rem;
+    }
+    .navbar-pincipal
+    {
+        width: 100%;
+    }
+    .login_favoritos
+    {
+        float: right;
+        margin-left: 0;
+
+    }
 }
 

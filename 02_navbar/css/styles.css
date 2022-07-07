@@ -23,7 +23,7 @@
     position: static;
     margin-top: 6rem;
     width: 40%;
-    margin-right: 24rem;
+    margin-right: 33rem;
 }
 
 /* Pesquisa------------------------------------------------------------------------------- */
@@ -74,6 +74,11 @@
     color: #fff;
 }
 
+.dropdown-menu .dropdown-item:hover
+{
+    color:black;
+}
+
 .dropdown-menu .dropdown-divider
 {
     background: #fff;
@@ -81,12 +86,18 @@
 
 .login_favoritos
 {
-    margin-top: -1.8rem;
+    
+    margin-bottom: 1.5rem;
+    float: right;
+    height: 0.5rem;
+    position: absolute;
+    margin-left: 80%;
 }
 
 
 .login
 {
+    position: relative;
     width: 2rem;
     margin: 0.5rem;
     border-radius: 10%;
@@ -99,19 +110,6 @@
 
 /* ----------------------------------------------------------------------- */
 /*1500px */
-
-@media(max-width: 1500px)
-{
-    .nav-itens .navbar-nav
-    {
-        position: static;
-        margin-top: 6rem;
-        width: 40%;
-        margin-right: 21rem;
-    }
-    
-}
-
 @media(max-width: 1550px)
 {
     .nav-itens .navbar-nav
@@ -119,10 +117,22 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-right: 22.5rem;
+        margin-left: 2.5%;
     }
 }
 /*  */
+@media(max-width: 1500px)
+{
+    .nav-itens .navbar-nav
+    {
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-left: 5%;
+    }
+    
+}
+
 @media (max-width: 1450px)
 {
     .nav-itens .navbar-nav
@@ -130,7 +140,7 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-right: 19rem;
+        margin-left: 8%;
     }
 }
 
@@ -141,7 +151,7 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-right: 16.5rem;
+        margin-left: 10%;
     }
 }
  
@@ -152,7 +162,7 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-right: 15rem;
+        margin-left: 9%;
     }
 }
 @media(max-width: 1300px)
@@ -170,23 +180,22 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-left: 2rem;
+        margin-left: 4%;
     }
 
-    .login_favoritos
-    {
-        float: right;
-        margin-left: 5rem;
-    }
-
+    
 }
  
 @media(max-width: 1250px)
 {
-    .navbar-pincipal
+    .nav-itens .navbar-nav
     {
-        width: 100%;
+        position: static;
+        margin-top: 6rem;
+        width: 40%;
+        margin-left: 2%;
     }
+
 }
 
 @media(max-width: 1200px)
@@ -196,7 +205,7 @@
         position: static;
         margin-top: 6rem;
         width: 40%;
-        margin-left: -2rem;
+        margin-left: 1%;
     }
     .navbar-pincipal
     {
